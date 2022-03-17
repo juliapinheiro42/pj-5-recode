@@ -1,0 +1,147 @@
+.contain{
+    background-image: url('../../assets/background.svg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.imagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.imagem img{
+    
+    width: 480px;
+    height: 480px;
+}
+
+
+.start-text{
+    margin-top: -15px;
+  font-family: 'Lora';
+  text-indent: 50px right;
+  background-image: linear-gradient(to right, #ffff, #e4c4c8, #960019);
+  height: 100vh;
+}
+
+.titulo{
+   display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.titulo h6{
+    font-family: 'Lora';
+}
+.titulo h1{
+    font-family: 'Kaushan Script';
+}
+.titulo hr{
+    width: 25%;
+}
+.text{
+    display: flex;
+    
+    justify-content: start;
+    flex-direction: column;
+    margin: 20px 0px 0px 20px;
+}
+.text span{
+    padding-top: 10px;
+}
+.number{
+display: flex;
+justify-content: flex-start;
+font-size: 30px;
+align-items: center;
+color: #960019;
+font-family: 'Kaushan Script';
+
+}
+.number h2{
+    padding:20px 0 0 100px;
+}
+.number svg{
+    padding-left: 30px;
+}
+.success{
+    display: flex;
+    justify-content: flex-start;
+}
+.success span{
+    padding:10px 0 0 45px;
+}
+.escrita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 700px;
+    top: 700px;
+    color: #960019;
+    font-family: 'Noto Script JP';
+    font-size: 100px;
+}
+.japonesa{
+    width: 100%;
+    display: flex;
+   justify-content: end;
+    padding-bottom: 20px;
+    margin-top: -300px
+   
+}
+.japonesa img{
+    width: 700px;
+    height: 600px;
+    border-radius: 0 0 10px 10px;
+    padding-right: 30px;
+    border-top: 10px solid #960019;
+}
+ @media screen and (max-width: 900px) {
+    .japonesa img{
+        width: 300px;
+        height: 400px;
+    }
+    .escrita{
+    position: absolute;
+    left: 600px;
+    top: 750px;
+    font-family: 'Noto Script JP';
+    font-size: 60px;
+    }
+    .text{
+        font-size: 14px;
+    
+    }
+    }
+    @media screen and (max-width: 900px) {
+        .japonesa img{
+            display:none;
+        }
+        .escrita{
+            position: absolute;
+            left: 550px;
+            top: 750px;
+            font-family: 'Noto Script JP';
+            font-size: 60px;
+            background: linear-gradient( to right,#ffffff, rgb(167, 94, 94));
+             background-clip: text;
+             -webkit-background-clip: text;
+             color: transparent;
+        }
+        .text{
+            font-size: 14px;
+        
+        }
+        }
+        @media screen and (max-width: 570px) {
+         .escrita{
+             display: none;
+         }
+        }

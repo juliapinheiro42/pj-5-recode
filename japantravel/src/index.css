@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora:ital,wght@0,400;0,500;1,400&family=Noto+Sans+JP&display=swap');
+
+
+
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-image: linear-gradient(to left, rgb(243, 167, 167), #e4c4c8, #960019);
+}
+li{
+  list-style: none;
+}
+a{
+  color:#960019;
+  text-decoration: none;
+  cursor: pointer;
+}
+#root{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family:'Kaushan Script', 'Lora', 'Noto Sans JP';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button{
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: linear-gradient(to top, #000, #ffffff);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to right, #e09c9c, #960019, #000);
+ border-radius: 20px;
+}
+::-webkit-resizer{
+  background: transparent;
+  border: none;
+}
+@media screen and (max-width: 700px) {
+  html, body, #root{
+    margin: 0;
+    padding: 0;
+  }
+}

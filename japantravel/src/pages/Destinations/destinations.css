@@ -1,0 +1,236 @@
+.pop{
+    height: 100vh;
+    background-image: linear-gradient(to left, #ffff, #e4c4c8, #960019);
+   
+    
+}
+.tokyo a{
+    color: #e4c4c8;
+}
+
+.titulo1{
+    margin: 10px;
+    font-size: 30px;
+    background: linear-gradient( to right,#ffffff, rgb(167, 94, 94));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+.titulo1 hr{
+    width: 50vw;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    overflow-x:auto;
+}
+
+.fotos img{
+  width: 100%;
+  height: 100%;
+}
+
+.japao{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 290px;
+    left:650px;
+    font-size: 80px;
+    background: linear-gradient( to right,#750417, rgb(255, 29, 29));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Noto Sans JP';
+   
+}
+.Tokyo{
+    margin-top: -15px;
+    font-family: 'Lora';
+    text-indent: 50px right;
+    background-image: linear-gradient(to left, #ffff, #e4c4c8, #960019);
+    height: 100vh;
+}
+.tk-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+    background: linear-gradient( to right,#ffffff, rgb(167, 94, 94));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+   
+}
+.tk-title h1{
+ font-family: 'Kaushan Script';
+ padding-top: 20px;
+}
+.tk-title hr{
+    width: 30vw;
+}
+.tk-txt{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 20px 0px 0px 20px;
+    background: linear-gradient( to right,#ffffff, rgb(167, 94, 94));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+.tk-txt span{
+    padding-top: 10px;
+    
+}
+
+.btn-tk {
+    position: absolute;
+    top: 940px;
+    display: flex;
+    margin: 50px 0 0 200px;
+    padding-left: 20px;
+    transition: all 0.6s;
+    border: 2px solid rgb(245, 137, 137);
+    color: #fad9d9;
+    background: transparent;
+    border-radius: 7px 20px 7px 20px;
+    padding: 13px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2), 0 0 5px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2), 0 0 15px rgba(0, 0, 0, .2);
+}
+
+
+
+.tk-img{
+    position: absolute;
+    top: 770px;
+    right: 100px;
+    width: 100%;
+    display: flex;
+   justify-content: end;
+    padding-bottom: 20px;
+   
+
+}
+.tk-img img{
+    width: 800px;
+    height: 600px;
+    padding-right: 30px;
+    border-top: 10px solid #960019;
+    border-radius:0px 0px 40px 20px;
+}
+
+.tk-jp{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -510px;
+    background: linear-gradient( to right,#750417, rgb(255, 29, 29));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    left:640px;
+    font-size: 100px;
+    font-family: 'Noto Sans JP';
+}
+@media screen and (max-width: 900px) {
+    .japao{
+        font-size: 60px;
+    }
+    .tk-img{
+        position: absolute;
+        top: 1090px;
+        right: 100px;
+        width: 100%;
+        display: flex;
+       justify-content: end;
+        padding-bottom: 20px;
+       
+    
+    }
+    .tk-img img{
+        width: 600px;
+        height: 300px;
+    }
+    
+    .tk-jp{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: -680px;
+        left:570px;
+        font-size: 60px;
+        font-family: 'Noto Sans JP';
+    }
+    .tk-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px 0px 20px;
+    background: linear-gradient( to bottom,#f30808, rgb(12, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    }
+    .btn-tk {
+        position: absolute;
+        top: 950px;
+        left: 150px ;
+        border: 2px solid #4e0404;
+        color: #4e0404;
+        
+      
+    }
+    .tk-title{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+        background: linear-gradient(to bottom,#f30808, rgb(12, 0, 0));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: 600;
+    }
+    .titulo1{
+        background: linear-gradient(to left,#f30808, rgb(12, 0, 0));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+       font-size: 25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .tk-img{
+        position: absolute;
+        top: 1090px;
+        right: 0px;
+        width: 100%;
+        display: flex;
+       justify-content: end;
+        padding-bottom: 20px;
+    }
+    .btn-tk {
+        position: absolute;
+        top: 950px;
+        left: 100px ;
+    }
+    .japao{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .tk-jp{
+        display: none;
+    }
+}

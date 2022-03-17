@@ -1,0 +1,37 @@
+{
+    "stock":[
+        {
+            "id": 1,
+            "amount": 10
+        },
+        {
+            "id": 2,
+            "amount":5
+        },
+        {
+            "id":3,
+            "amount":8
+        }
+    ],
+    "trips":[
+        {
+        "id":1,
+        "title":"Viagem para Tóquio por 7 noites",
+        "status": true,
+        "image": "https://images.pexels.com/photos/5425522/pexels-photo-5425522.jpeg?cs=srgb&dl=pexels-yumiko-yamanaka-5425522.jpg&fm=jpg"
+        },
+        {
+            "id":2,
+            "title":"Viagem para Hakone por 5 noites",
+            "status": true,
+            "image": "https://images.pexels.com/photos/4009214/pexels-photo-4009214.jpeg?cs=srgb&dl=pexels-d-j-4009214.jpg&fm=jpg"
+            },
+            {
+            "id":3,
+            "title":"Viagem para Osaka por 10 noites",
+            "status": true,
+            "image": "https://images.pexels.com/photos/4058519/pexels-photo-4058519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            }
+
+    ]
+}

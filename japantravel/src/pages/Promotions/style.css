@@ -1,0 +1,23 @@
+.card-ticket{
+    font-family: 'lora';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-ticket .btn{
+    size: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f5c5cd;
+    width: 80%;
+
+}
+.card-ticket .btn:hover{
+ color: #fffdf1;
+ background-color:#960019 ;
+}
+.card-corpo{
+    display: flex;
+    flex-direction: column;
+}
