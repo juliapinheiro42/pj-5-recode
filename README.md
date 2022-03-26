@@ -10,7 +10,7 @@
 Conheça Yasmine tour, o site de viagem para o Japão.
 
 
-##tecnologias utilizadas
+## tecnologias utilizadas
 
                      Back-end: Spring JPA, Spring devtools, Hibernate, Banco de dados Relacional MySQL
                                    Front-end: ReactJs, Redux, Components.
